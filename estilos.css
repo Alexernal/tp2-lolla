@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #201932;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+.header {
+    padding: 20px 0;
+}
+
+.header nav a{
+   color: white;
+   font-weight: 600;
+   padding-right: 60px;
+
+}
+
+.header  li {
+    padding-right: 30px;
+}
+
+
+
+main img{
+    max-width: 100%;
+    height: auto;
+   
+}
+
+
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+.main_2 {
+    text-align: center;
+    margin: auto;
+    margin-top: 8em;
+    margin-bottom: 2em;    
+}
+
+.main_2 p {
+    max-width: 40%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+.main_2 p:first-child {
+    font-weight: 600;
+    color: #6b4ee6;
+}
+
+.img_1{
+    margin: auto;
+    text-align: center;
+}
+
+.img_1 img {
+max-width: 25%;
+height: auto;
+display: inline-block;
+margin: 0 0.5em;
+}
+
+.card-text {
+    color: #201932;
+}
+
+.card-title {
+    color: #201932;
+    text-align: center;
+}
+
+.card-group {
+    max-width: 70%;
+    height: auto;
+   margin: auto;
+   text-align: center;
+   margin-bottom: 10em;
+}
+
+.lineup {
+    margin: auto;
+    text-align: center;
+    margin-top: 6em;
+}
+
+.lineup h1 {
+    color: #6b4ee6;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+.kid {
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.p1 {
+    max-width: 80%;
+    text-align: left;
+    font-weight: 600;
+    margin: auto;
+}
+
+#caja {
+    background-color: #6b4ee6;
+    padding: 80px;
+}
+
+.food {
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.p2 {
+    max-width: 100%;
+    text-align: left;
+    font-weight: 600;
+    margin: auto;
+}
+
+#caja2 {
+    background-color: #6b4ee6;
+    padding: 80px;
+}
+
+.verde {
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.p3 {
+    max-width: 100%;
+    text-align: center;
+    font-weight: 600;
+    margin: auto;
+}
+
+#caja3 {
+    background-color: #6b4ee6;
+    padding: 80px;
+    margin: 3em;
+    
+}
+footer{
+    background: #6b4ee6;
+    padding: 20px 0;
+
+}
+
+footer p {
+    color: white;
+    text-align: left;
+    margin: auto;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+
+    
+
+    .main_2 {
+        text-align: center;
+        margin: auto;
+        margin-top: 3em;
+        margin-bottom: 2em;    
+    }
+    .main_2 p {
+        max-width: 80%;
+        text-align: center;
+        margin: auto;
+        font-size: 1.5em;
+    }
+
+    .img_1 img {
+        max-width: 60%;
+        height: auto;
+        display: inline-block;
+        margin: 1em 0.5em;
+        }
+
+        .lineup {
+            margin: auto;
+            text-align: center;
+            margin-top: 2em;
+        }
+
+        .lineup {
+            margin: auto;
+            text-align: center;
+            margin-top: 2em;
+        }
+
+        nav a{
+            font-weight: 600;
+            padding-right: 10px;
+
+            }
+            .p2 {
+                max-width: 100%x;
+                text-align: left;
+                font-weight: 600;
+                margin: auto;
+            }
+            .p1 {
+                max-width: 100%;
+                text-align: left;
+                font-weight: 600;
+                margin: auto;
+                padding-bottom: 24px;
+            }
+
+            #caja2 {
+                background-color: #6b4ee6;
+                padding: 50px;
+            }
+        
+            #caja {
+                background-color: #6b4ee6;
+                padding: 50px;
+            }
+        
+}
+
+@media screen and (max-width: 650px) {
+    #caja2 {
+        background-color: #6b4ee6;
+        padding: 50px;
+    }
+
+    #caja {
+        background-color: #6b4ee6;
+        padding: 50px;
+    }
+
+    .p1 {
+        max-width: 100%;
+        text-align: left;
+        font-weight: 600;
+        margin: auto;
+        padding: 0.5em;
+    }
+    .p2 {
+        max-width: 100%;
+        text-align: left;
+        font-weight: 600;
+        margin: auto;
+    }
+}
+
